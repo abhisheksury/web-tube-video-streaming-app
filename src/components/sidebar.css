@@ -1,0 +1,18 @@
+.active{
+    @media (max-width: 1100px){
+        position: fixed;
+        z-index : 1000;
+        width : 100%;
+        max-width : 250px;
+        left : 0      }
+}
+
+.notactive{
+    @media (max-width: 1100px){
+        position: fixed;
+        z-index : 1000;
+        width : 100%;
+        max-width : 250px;
+        left : -100%
+      }
+}
